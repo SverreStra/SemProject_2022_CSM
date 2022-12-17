@@ -76,7 +76,8 @@
   }
 
   .main {
-    padding: 25px;
+    padding: 50px;
+    margin: 5px;
   }
 
   .header-image img {
@@ -362,6 +363,11 @@ footer {
     height: 250px;
   }
 
+  .main {
+    padding: 60px;
+    margin: 5px;
+  }
+
  
 /*Index*/
 
@@ -474,7 +480,7 @@ footer {
 .special-event-text p,
 .special-text-2 p,
 .text-contact p,
-.research-text p
+.research-text p,
 .teacher-text p,
 .kids-text p {
   font-size: 18px;
@@ -679,8 +685,6 @@ footer {
 .event-image img {
   height: 400px;
 }
-
-
 
  }
 

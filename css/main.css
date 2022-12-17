@@ -84,6 +84,7 @@ nav li a {
 }
 
 .logo-small-screen {
+  font-weight: bold;
   float: right;
 }
 
@@ -128,6 +129,7 @@ nav li a {
 
 .main {
   padding: 25px;
+  margin: 5px;
 }
 /*All h2 paddings and Font-Size*/
 .support-hero h2,
