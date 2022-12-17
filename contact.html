@@ -49,22 +49,26 @@
           We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).</p>
       </div>
     </section>
-    <div class="contact-form-color">
-    <section class="contact-form">
-      <div class="contact">
-        <form>
-          <h2>Contact us</h2>
+    <section class="contact-form-container">
+    <div class="contact-form">
+      <h1>Contact us</h1>
+      <form>
+        <fieldset>
+          <legend>Info</legend>
+          <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" class="form-input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-input">
+          </fieldset>
           <br>
-          <br>
-          <br>
-          <input type="text" placeholder="Name" name="">
-          <input type="email" placeholder="Email" name="">
-          <input type="text" placeholder="Subject" name="">
-          <textarea name="" placeholder="Type Message" id="" cols="30" rows="10"></textarea>
-          <button class="cta-btn">Send Message</button>
+          <fieldset>
+            <legend>Your Message</legend>
+            <textarea name="message"  cols="30" rows="10" class="form-input"></textarea>
+          </fieldset>
+          <input type="submit" value="Send Message" class="cta-btn">
         </form>
-      </div>
-    </section>
+    </div>
+  </section>
   </div>
   </main>
   <br>

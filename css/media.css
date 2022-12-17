@@ -314,35 +314,7 @@
   }
 
 
-/*Contact Page*/
-.contact-form-color {
-  padding: 20px 25px;
-}
 
-.contact {
-  width: 50vh;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact form input {
-  height: 25px;
-  font-size: 1.3rem;
-  padding: 5px;
-}
-
-
-.contact form textarea {
-  font-size: 1.3rem;
-  padding: 5px;
-}
   /*Footer*/
 
 footer {
@@ -579,24 +551,6 @@ footer {
   }
 
 
-  /*Contact Page*/
-  .contact {
-    width: 50vh;
-    height: 50vh;
-    padding: 20px;
-  }
-
-  .contact form {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-  }
-
-  .contact-form {
-    text-align: -moz-center;
-    padding: 25px;
-  }
-
  }
 
 
@@ -726,12 +680,7 @@ footer {
   height: 400px;
 }
 
-/*Contact Page*/
-.contact {
-  width: 100vh;
-  height: 100vh;
-  padding: 20px;
-}
+
 
  }
 
