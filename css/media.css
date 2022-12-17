@@ -1,0 +1,738 @@
+@media (min-width: 720px) {
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background-color: #fff;
+    color: #000;
+  }
+
+  nav ul {
+    display: inline-block;
+    background: #fff;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #1D1DE2;
+    font-size: 0.9rem;
+  }
+
+  nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    left: 0;
+    top: 100%;
+    border-radius: 2px;
+    position: absolute;
+    background: red;
+    transition: 0.7s;
+  }
+
+
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+
+  .logo-small-screen {
+    display: none;
+  }
+
+  .logo-text {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .logo-text-small {
+    display: none;
+  }
+
+  .active {
+    color: #b22222;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: start;
+  }
+
+  .main {
+    padding: 25px;
+  }
+
+  .header-image img {
+    height: 200px;
+  }
+
+/*Index*/
+
+.top-card-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px;
+}
+
+.top-card-containers img {
+  height: 200px;
+}
+
+.teacher-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .teacher-image img {
+  height: 300px;
+ }
+
+ .news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+ }
+
+.news-container .news-2 h3 {
+  color: #000;
+  text-decoration: underline 3px #1D7CA1;
+}
+
+.news-container .news-2 p {
+  color: #000;
+}
+
+ .news-2 {
+  background: #DAA520;
+ }
+
+/*Visit*/
+
+.hours-hero h2 {
+  font-size: 35px;
+}
+
+.hours-hero li {
+  font-size: 15px;
+}
+
+.food-shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.food-shop h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+/*Explore*/
+
+.explore-image img {
+  height: 200px;
+}
+
+.research-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 20px;
+}
+
+.research-image img {
+  height: 300px;
+}
+
+.image-teacher img,
+.kids-image img  {
+  height: 200px;
+}
+
+.small-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px 15px;
+}
+
+.small-images img {
+  border-radius: 180px;
+  height: 200px;
+}
+
+/*Night at Museum*/
+
+.header-night h1 {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.event-image img {
+  height: 300px;
+}
+
+.special-hero h2 {
+  font-size: 30px;
+}
+  /*Learn Page*/
+
+    .cosmology-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .cosmology-image img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .cosmology-text h2,
+  .header-biology h2,
+  .header-ecology h2,
+  .header-robotics h2,
+  .header-evolution h2,
+  .support-hero h2,
+  .intership-hero h2,
+  .volunter-hero h2,
+  .museum-header h2,
+  .special-event-hero h2,
+  .special-hero-2 h2,
+  .hero-contact h2,
+  .research-text h2,
+  .top-text-teachers h2,
+  .top-text-kids h2 {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+  
+  
+  .cosmology-text p,
+  .biology-text p,
+  .ecology-text p,
+  .robotics-text p,
+  .evolution-text p,
+  .involved-container p,
+  .support-text p,
+  .intership-text p,
+  .volunteer-text p,
+  .event-text p,
+  .special-event-text p,
+  .special-text-2 p,
+  .text-contact p,
+  .research-text p,
+  .teacher-text p,
+  .kids-text p {
+    font-size: 13px;
+    padding: 20px 20px 10px;
+  }
+      
+  .biology-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+    padding: 10px;
+  }
+  
+  .biology-images img {
+    height: 150px;
+  }
+  
+  .ecology-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 20px;
+  }
+  
+  .robotics-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .robotics-image img {
+    height: 200px;
+  }
+  
+  
+  .evolution-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 20px;
+  }
+  
+  .evolution-images img {
+    height: 100px;
+  }
+
+  /*Get Involved*/
+  .header-involved {
+    padding: 25px;
+    font-size: 30px;
+  }
+
+  .involved-container h2 {
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .involved-container h3 {
+    font-size: 25px;
+    padding: 10px 10px;
+  }
+
+  .center-image img {
+    height: 300px;
+  }
+
+  .intership-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+  }
+  
+  .intership-images img {
+    height: 200px;
+  }
+
+
+/*Contact Page*/
+.contact-form-color {
+  padding: 20px 25px;
+}
+
+.contact {
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form input {
+  height: 25px;
+  font-size: 1.3rem;
+  padding: 5px;
+}
+
+
+.contact form textarea {
+  font-size: 1.3rem;
+  padding: 5px;
+}
+  /*Footer*/
+
+footer {
+  padding: 25px 225px;
+}
+
+.footer-container {
+  box-shadow: 5px 5px;
+}
+
+.footer-container p {
+  font-size: 13px;
+}
+
+.footer-container h4 {
+  font-size: 15px;
+}
+   }
+
+
+@media (min-width: 1024px) {
+  
+  
+  
+  /*Nav*/
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .logo-text {
+    font-size: 1.9rem;
+  }
+
+  .top-card-containers img {
+    height: 300px;
+  }
+
+  .top-card-containers a {
+    font-size: 15px;
+  }
+
+
+  .header-image img {
+    height: 250px;
+  }
+
+ 
+/*Index*/
+
+.teacher-image img {
+  height: 400px;
+ }
+
+/*Visit media queries*/
+
+.hours-hero h2 {
+  font-size: 40px;
+}
+
+.hours-hero li {
+  font-size: 20px;
+}
+
+.food-shop h2 {
+  font-size: 30px;
+}
+
+.access-hero p {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.admission p {
+  text-align: start;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.food-shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/*Explore*/
+.research-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 20px;
+}
+
+
+.research-image img {
+  height: 300px;
+}
+
+.image-teacher img,
+.kids-image img  {
+  height: 200px;
+}
+
+.small-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px 15px;
+}
+
+.small-images img {
+  border-radius: 180px;
+  height: 200px;
+}
+
+/*Learn Page*/
+
+.cosmology-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2,
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.museum-header h2,
+.special-event-hero h2,
+.special-hero-2 h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2 {
+  font-size: 25px;
+  padding: 20px 20px;
+}
+
+
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p,
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.food p,
+.shop p,
+.volunteer-text p,
+.teacher-text p,
+.news-container p,
+.event-text p,
+.special-event-text p,
+.special-text-2 p,
+.text-contact p,
+.research-text p
+.teacher-text p,
+.kids-text p {
+  font-size: 18px;
+  padding: 25px;
+}
+    
+.biology-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 15px;
+}
+
+.biology-images img {
+  height: 150px;
+}
+
+.ecology-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 20px;
+}
+
+.robotics-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.robotics-image img {
+  height: 300px;
+}
+
+
+.evolution-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px 20px;
+}
+
+  /*Get Involved*/
+  .header-involved {
+    padding: 25px;
+    font-size: 30px;
+  }
+
+  .involved-container h2 {
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .involved-container h3 {
+    font-size: 25px;
+    padding: 10px 10px;
+  }
+
+  .center-image img {
+    height: 300px;
+  }
+
+  .intership-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .intership-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+  }
+  
+  .intership-images img,
+  .evolution-images img {
+    height: 250px;
+  }
+
+
+  /*Contact Page*/
+  .contact {
+    width: 50vh;
+    height: 50vh;
+    padding: 20px;
+  }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .contact-form {
+    text-align: -moz-center;
+    padding: 25px;
+  }
+
+ }
+
+
+@media (min-width: 1400px) {
+
+.top-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 25px 30px 25px 40px;
+}
+
+.top-card-containers img {
+  height: 450px;
+  padding: 15px 15px 15px;
+}
+
+.header-image img {
+  height: 300px;
+}
+
+/*Index*/
+
+.teacher-image img {
+  height: 550px;
+ }
+
+ /*Visit*/
+
+.hours-hero h2 {
+  font-size: 43px;
+}
+
+.hours-hero li {
+  font-size: 23px;
+}
+
+.food-shop h2 {
+  font-size: 33px;
+}
+
+.access-hero p {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.admission p {
+  text-align: start;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+/*Explore*/
+
+
+.research-image img {
+  height: 350px;
+}
+
+.small-images img {
+  border-radius: 180px;
+  height: 300px;
+}
+
+.cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2,
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2 {
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p,
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.food p,
+.shop p,
+.volunteer-text p,
+.teacher-text p,
+.news-container p,
+.event-text p,
+.special-event-text p,
+.special-text-2 p,
+.text-contact p,
+.research-text p
+.teacher-text p,
+.kids-text p {
+  font-size: 20px;
+  padding: 25px;
+}
+
+/*Learn Page*/
+
+.biology-images img {
+  height: 200px;
+}
+
+.robotics-image img {
+  height: 350px;
+}
+
+.evolution-images img {
+  height: 250px;
+}
+
+.event-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.event-image img {
+  height: 400px;
+}
+
+/*Contact Page*/
+.contact {
+  width: 100vh;
+  height: 100vh;
+  padding: 20px;
+}
+
+ }
+
+

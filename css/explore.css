@@ -1,0 +1,33 @@
+.research-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 20px 20px;
+}
+
+.research-image img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-teacher img,
+.kids-image img  {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.small-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 25px 15px;
+}
+
+.small-images img {
+  border-radius: 180px;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}

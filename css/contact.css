@@ -1,0 +1,39 @@
+.contact-form-color {
+  background: #1D7CA1;
+  padding: 20px 25px;
+}
+
+.contact-form {
+  text-align: -moz-center;
+}
+
+.contact {
+  width: 20vh;
+  height: 50vh;
+  background: #daa520;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form input {
+  margin: 5px;
+  height: 25px;
+  font-size: .7rem;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+
+.contact form textarea {
+  margin: 5px;
+  font-size: .7rem;
+  padding: 5px;
+  border: 1px solid #000;
+}

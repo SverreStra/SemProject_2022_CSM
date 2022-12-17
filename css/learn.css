@@ -1,0 +1,87 @@
+.cosmology-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2 {
+  font-size: 25px;
+  text-decoration: underline 4px #daa520;
+  padding: 20px 20px;
+}
+
+
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p {
+  font-size: 13px;
+  padding: 20px 20px 10px;
+  line-height: 1.4;
+}
+
+.biology-container {
+  background: #1D7CA1;
+}
+
+.biology-text  {
+  color: #fff;
+}
+
+.biology-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.biology-images img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 180px;
+}
+
+.ecology-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 25px 20px;
+}
+
+.robotics-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.robotics-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+
+.evolution-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 25px 20px;
+  text-align: center;
+  background: #1D7CA1;
+}
+
+.evolution-images img {
+  object-fit: cover;
+  height: 100px;
+  border: 2px solid #000;
+  border-radius: 180px;
+  background: #fff;
+}
+
+

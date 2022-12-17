@@ -1,0 +1,59 @@
+.admission, .hours-hero,
+.access-hero {
+  background: #1D7CA1;
+  color: #fff;
+  text-align: center;
+  padding: 55px 50px;
+}
+
+.admission p, .access-hero p {
+  text-align: start;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.hours-hero h2 {
+  font-size: 25px;
+}
+
+.hours-hero li {
+  font-size: 10px;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.food-shop {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.food-shop h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+.food-shop p {
+  padding: 15px;
+}
+
+.food {
+  background: #1D7CA1;
+  color: #fff;
+}
+
+.shop {
+  background: #DAA520;
+  color: #000;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+input, textarea {
+  font-size: 10px;
+}
+

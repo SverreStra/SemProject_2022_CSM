@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F1F1F1;
+  font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
+
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+header {
+  position: relative;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 3rem;
+}
+
+nav ul {
+  background: #1D7CA1;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+nav {
+  position: absolute;
+  left: 0px;
+}
+
+nav li {
+  display: block;
+  color: #000;
+  padding: 10px 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.logo-text {
+  display: none;
+}
+
+
+.logo-text-small {
+  float: right;
+  font-size: 40px;
+  color: white;
+  margin-top: 3px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.logo-small-screen {
+  float: right;
+}
+
+.logo-small-screen a {
+  text-decoration: none;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.C {
+  color: #E21D1D;
+}
+
+.S {
+  color: #1D1DE2;
+}
+
+.M {
+  color: #E21D1D;
+}
+
+.fa-solid, .fas {
+  font-weight: 600;
+}
+
+.hamburger-icon {
+  color: #1D7CA1;
+}
+
+.header {
+  padding: 20px;
+  color: #1D7CA1;
+  font-size: 25px;
+  text-decoration: underline 8px #b22222;
+}
+
+.header-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.main {
+  padding: 25px;
+}
+/*All h2 paddings and Font-Size*/
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2,
+.volunteer-header h2,
+.teacher-header h2,
+.news-header h2,
+.museum-header h2,
+.special-event-hero h2,
+.special-hero-2 h2,
+.hero-contact h2 {
+  font-size: 25px;
+  text-decoration: underline 4px #daa520;
+  padding: 20px 20px;
+}
+
+/*All p paddings and Font-Size*/
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.visit-hero p,
+.access-hero p,
+.main-volunteer p,
+.event-text p,
+.volunteer-text p,
+.teacher-text p,
+.news-container p,
+.special-event-text p,
+.special-text-2 p, 
+.text-contact p {
+  font-size: 13px;
+  padding: 20px 20px 10px;
+  line-height: 1.4;
+}
+/*Button*/
+
+.cta-btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background: #003087;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*Footer*/
+
+footer {
+  background: #1D7CA1;
+  padding: 25px 25px;
+}
+
+.footer-container {
+  box-shadow: 5px 5px;
+}
+
+.footer-container p, .footer-logo,
+.footer-info {
+  text-align: center;
+  background: #fff;
+  padding: 20px 20px 10px;
+}
+
+.footer-logo {
+  font-size: 18px;
+}
+
+.footer-container p {
+  font-size: 10px;
+}
+
+.footer-container h4 {
+  display: inline-block;
+  gap: 1rem;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

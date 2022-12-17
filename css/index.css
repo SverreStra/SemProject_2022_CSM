@@ -1,0 +1,70 @@
+/*Top Cards*/
+
+/*Top Card Container*/
+
+.top-card-containers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 25px;
+  text-align: center;
+}
+
+.top-card-containers img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.evolution-text,
+.for-kids-text,
+.night-museum-text {
+  margin-top: 10px;
+}
+
+.top-card-containers a {
+  padding: 5px 25px;
+  text-decoration: none;
+  background: #003087;
+  color: #fff;
+  font-size: 10px;
+}
+
+hr {
+  border: 6px solid #2100F9;
+  border-radius: 20px;
+ }
+
+
+ .teacher-container {
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+
+ .teacher-text {
+  background: #1D7CA1;
+  color: #fff;
+ }
+
+ .teacher-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+ }
+
+ .news-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #1D7CA1;
+ }
+
+ .news-container h3 {
+  font-size: 15px;
+  padding: 20px 20px 10px;
+  color: #fff;
+  text-decoration: underline 3px #daa520;
+ }
+
+ .news-container p {
+  color: #fff;
+ }
