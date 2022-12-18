@@ -84,6 +84,47 @@
     height: 200px;
   }
 
+/*All h2 paddings and Font-Size*/
+.cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2,
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.museum-header h2,
+.special-event-hero h2,
+.special-hero-2 h2,
+.hero-contact h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2 {
+  font-size: 25px;
+  padding: 20px 20px;
+}
+
+/*All p paddings and Font-Size*/
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p,
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.event-text p,
+.special-event-text p,
+.special-text-2 p,
+.text-contact p,
+.research-text p,
+.teacher-text p,
+.kids-text p {
+  font-size: 13px;
+  padding: 20px 20px 10px;
+}
+
 /*Index*/
 
 .top-card-containers {
@@ -205,46 +246,6 @@
     width: 100%;
     object-fit: cover;
   }
-  
-  .cosmology-text h2,
-  .header-biology h2,
-  .header-ecology h2,
-  .header-robotics h2,
-  .header-evolution h2,
-  .support-hero h2,
-  .intership-hero h2,
-  .volunter-hero h2,
-  .museum-header h2,
-  .special-event-hero h2,
-  .special-hero-2 h2,
-  .hero-contact h2,
-  .research-text h2,
-  .top-text-teachers h2,
-  .top-text-kids h2 {
-    font-size: 25px;
-    padding: 20px 20px;
-  }
-  
-  
-  .cosmology-text p,
-  .biology-text p,
-  .ecology-text p,
-  .robotics-text p,
-  .evolution-text p,
-  .involved-container p,
-  .support-text p,
-  .intership-text p,
-  .volunteer-text p,
-  .event-text p,
-  .special-event-text p,
-  .special-text-2 p,
-  .text-contact p,
-  .research-text p,
-  .teacher-text p,
-  .kids-text p {
-    font-size: 13px;
-    padding: 20px 20px 10px;
-  }
       
   .biology-images {
     display: grid;
@@ -272,7 +273,6 @@
   .robotics-image img {
     height: 200px;
   }
-  
   
   .evolution-images {
     display: grid;
@@ -368,6 +368,50 @@ footer {
     margin: 5px;
   }
 
+
+  .cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2,
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.museum-header h2,
+.special-event-hero h2,
+.special-hero-2 h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2 {
+  font-size: 25px;
+  padding: 20px 20px;
+}
+
+
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p,
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.food p,
+.shop p,
+.volunteer-text p,
+.teacher-text p,
+.news-container p,
+.event-text p,
+.special-event-text p,
+.special-text-2 p,
+.text-contact p,
+.research-text p,
+.teacher-text p,
+.kids-text p {
+  font-size: 18px;
+  padding: 25px;
+}
  
 /*Index*/
 
@@ -443,49 +487,6 @@ footer {
   gap: 1rem;
 }
 
-.cosmology-text h2,
-.header-biology h2,
-.header-ecology h2,
-.header-robotics h2,
-.header-evolution h2,
-.support-hero h2,
-.intership-hero h2,
-.volunter-hero h2,
-.museum-header h2,
-.special-event-hero h2,
-.special-hero-2 h2,
-.research-text h2,
-.top-text-teachers h2,
-.top-text-kids h2 {
-  font-size: 25px;
-  padding: 20px 20px;
-}
-
-
-.cosmology-text p,
-.biology-text p,
-.ecology-text p,
-.robotics-text p,
-.evolution-text p,
-.involved-container p,
-.support-text p,
-.intership-text p,
-.volunteer-text p,
-.food p,
-.shop p,
-.volunteer-text p,
-.teacher-text p,
-.news-container p,
-.event-text p,
-.special-event-text p,
-.special-text-2 p,
-.text-contact p,
-.research-text p,
-.teacher-text p,
-.kids-text p {
-  font-size: 18px;
-  padding: 25px;
-}
     
 .biology-images {
   display: grid;
@@ -512,7 +513,6 @@ footer {
 .robotics-image img {
   height: 300px;
 }
-
 
 .evolution-images {
   display: grid;
@@ -578,6 +578,46 @@ footer {
   height: 300px;
 }
 
+.cosmology-text h2,
+.header-biology h2,
+.header-ecology h2,
+.header-robotics h2,
+.header-evolution h2,
+.support-hero h2,
+.intership-hero h2,
+.volunter-hero h2,
+.research-text h2,
+.top-text-teachers h2,
+.top-text-kids h2 {
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.cosmology-text p,
+.biology-text p,
+.ecology-text p,
+.robotics-text p,
+.evolution-text p,
+.involved-container p,
+.support-text p,
+.intership-text p,
+.volunteer-text p,
+.food p,
+.shop p,
+.volunteer-text p,
+.teacher-text p,
+.news-container p,
+.event-text p,
+.special-event-text p,
+.special-text-2 p,
+.text-contact p,
+.research-text p
+.teacher-text p,
+.kids-text p {
+  font-size: 20px;
+  padding: 25px;
+}
+
 /*Index*/
 
 .teacher-image img {
@@ -620,46 +660,6 @@ footer {
 .small-images img {
   border-radius: 180px;
   height: 300px;
-}
-
-.cosmology-text h2,
-.header-biology h2,
-.header-ecology h2,
-.header-robotics h2,
-.header-evolution h2,
-.support-hero h2,
-.intership-hero h2,
-.volunter-hero h2,
-.research-text h2,
-.top-text-teachers h2,
-.top-text-kids h2 {
-  font-size: 30px;
-  padding: 20px 20px;
-}
-
-.cosmology-text p,
-.biology-text p,
-.ecology-text p,
-.robotics-text p,
-.evolution-text p,
-.involved-container p,
-.support-text p,
-.intership-text p,
-.volunteer-text p,
-.food p,
-.shop p,
-.volunteer-text p,
-.teacher-text p,
-.news-container p,
-.event-text p,
-.special-event-text p,
-.special-text-2 p,
-.text-contact p,
-.research-text p
-.teacher-text p,
-.kids-text p {
-  font-size: 20px;
-  padding: 25px;
 }
 
 /*Learn Page*/
